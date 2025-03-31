@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function Search() {
-  let [query, setQuery] = useState("");
+  const [query, setQuery] = useState("");
 
   function handleSubmit(event) {
     event.preventDefault();
